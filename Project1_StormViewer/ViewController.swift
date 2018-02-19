@@ -14,6 +14,8 @@ class ViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        title = "Storm Viewer"
 
         //HWS code
         let fm = FileManager.default
@@ -38,6 +40,23 @@ class ViewController: UITableViewController {
         let cell = tableView.dequeueReusableCell(withIdentifier: "Picture", for: indexPath)
         cell.textLabel?.text = pictures[indexPath.row]
         return cell
+    }
+    
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        
+        
+        // 1. Try loading the "Detail" vc and typecast it to be DetailedVC
+        if let vc =
+            storyboard?.instantiateViewController(withIdentifier: "Detail") as? DetailViewController {
+            //2. Sucess! Set its selectImage property
+            
+            vc.selectedImage = pictures[indexPath.row]
+            
+            //3. Now push it on to the navigation VC
+            
+            navigationController?.pushViewController(vc, animated: true)
+        }
+    
     }
     
     override func didReceiveMemoryWarning() {
