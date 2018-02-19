@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		7213EAE3203B1CC500464FF8 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7213EAE2203B1CC500464FF8 /* DetailViewController.swift */; };
+		72566C8A203B2F4C00639B27 /* HWS Project1.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 72566C89203B2F4B00639B27 /* HWS Project1.pdf */; };
 		B78584442038A31300B3D885 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78584432038A31300B3D885 /* AppDelegate.swift */; };
 		B78584462038A31300B3D885 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78584452038A31300B3D885 /* ViewController.swift */; };
 		B78584492038A31300B3D885 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B78584472038A31300B3D885 /* Main.storyboard */; };
@@ -27,6 +28,7 @@
 
 /* Begin PBXFileReference section */
 		7213EAE2203B1CC500464FF8 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		72566C89203B2F4B00639B27 /* HWS Project1.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "HWS Project1.pdf"; sourceTree = "<group>"; };
 		B78584402038A31300B3D885 /* Project1_StormViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Project1_StormViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B78584432038A31300B3D885 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B78584452038A31300B3D885 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -82,6 +84,7 @@
 				B78584472038A31300B3D885 /* Main.storyboard */,
 				B785844A2038A31300B3D885 /* Assets.xcassets */,
 				B785844C2038A31300B3D885 /* LaunchScreen.storyboard */,
+				72566C89203B2F4B00639B27 /* HWS Project1.pdf */,
 				B78584552038A98C00B3D885 /* Content */,
 				B785844F2038A31300B3D885 /* Info.plist */,
 			);
@@ -166,6 +169,7 @@
 			files = (
 				B78584612038A98C00B3D885 /* nssl0034.jpg in Resources */,
 				B78584682038A98C00B3D885 /* nssl0051.jpg in Resources */,
+				72566C8A203B2F4C00639B27 /* HWS Project1.pdf in Resources */,
 				B785844E2038A31300B3D885 /* LaunchScreen.storyboard in Resources */,
 				B78584642038A98C00B3D885 /* nssl0043.jpg in Resources */,
 				B78584602038A98C00B3D885 /* nssl0033.jpg in Resources */,
